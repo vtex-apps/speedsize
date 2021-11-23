@@ -1,9 +1,9 @@
 {
-  "name": "YOURAPPNAME",
+  "name": "speedsize",
   "vendor": "vtex",
-  "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "version": "0.0.3",
+  "title": "speedsize",
+  "description": "speedsize",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "support": {
@@ -19,18 +19,19 @@
     "react": "3.x",
     "store": "0.x",
     "pixel": "0.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "service-worker": "0.x"
   },
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "YOUR APP NAME",
+    "title": "SpeedSize",
     "type": "object",
     "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+      "speedSizeId": {
+        "title": "SpeedSize ID",
+        "description": "Enter the ID from your SpeedSize Account",
         "type": "string"
       }
     }
